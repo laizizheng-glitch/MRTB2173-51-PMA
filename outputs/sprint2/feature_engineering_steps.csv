@@ -1,0 +1,4 @@
+Feature Engineering Step,Reason
+Categorical encoding,Categorical customer attributes must be converted into numeric model inputs.
+Numerical scaling,Logistic Regression is sensitive to numerical scale differences.
+Feature creation,"TenureGroup, ServiceCount, LongTermContract, AutomaticPayment and HasSupport improve business meaning."

@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1,ROC_AUC
+Sprint 2 Baseline - Logistic Regression,0.7374,0.5034,0.7861,0.6138,0.8426
