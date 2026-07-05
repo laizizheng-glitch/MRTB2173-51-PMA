@@ -1,0 +1,5 @@
+Aspect,Sprint 2 Baseline,Sprint 3 Improved
+Model Used,Logistic Regression,Random Forest
+Evaluation Metric,"Accuracy, Precision, Recall, F1, ROC-AUC","Accuracy, Precision, Recall, F1, ROC-AUC"
+Evaluation Result,F1 = 0.614; Accuracy = 0.737,F1 = 0.621; Accuracy = 0.764
+Improvement Introduced,Simple baseline classification model,Alternative ensemble model with class weighting and tuned depth

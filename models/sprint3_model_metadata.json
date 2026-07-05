@@ -1,0 +1,6 @@
+{
+  "best_model": "Random Forest",
+  "baseline_f1": 0.6138,
+  "improved_f1": 0.6212,
+  "target": "ChurnFlag"
+}
