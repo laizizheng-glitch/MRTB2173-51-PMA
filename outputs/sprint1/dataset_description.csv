@@ -1,0 +1,2 @@
+Dataset Source,Organizational Problem,Stakeholders,Number of Records,Number of Variables,Target Variable,Analysis Type
+https://www.kaggle.com/datasets/blastchar/telco-customer-churn,Identify customers likely to churn so retention action can be prioritized.,"Retention manager, customer service supervisor, business manager, data science team.",7043,21,Churn,Binary classification and dashboard analytics.

@@ -1,0 +1,4 @@
+Priority,Backlog Item,Reason for Priority,Expected Deliverable
+High,Convert TotalCharges to numeric and repair blank values,TotalCharges is required for modelling and dashboard analysis.,Cleaned TotalCharges column with documented rule.
+High,Remove exact duplicate rows and validate customer ID uniqueness,Duplicates may distort churn rate and prediction reliability.,Duplicate check output and cleaned dataset.
+Medium,Standardize inconsistent service category labels,Consistent categories improve dashboard readability.,Standardized Yes/No service columns.

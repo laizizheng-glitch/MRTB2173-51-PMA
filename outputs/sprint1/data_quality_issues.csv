@@ -1,0 +1,6 @@
+Issue,How Identified,Count,Potential Impact,Action
+Missing values and blank strings,df.isna().sum() and blank-string check,11,May cause unreliable dashboard summaries and model training errors.,Strip text values and handle blank TotalCharges.
+Non-numeric TotalCharges,"pd.to_numeric(TotalCharges, errors='coerce')",11,Prevents proper scaling and modelling of billing values.,Convert TotalCharges to numeric and repair valid blanks.
+Duplicate customer IDs,customerID.duplicated().sum(),0,May distort customer-level predictions and dashboard counts.,Check uniqueness and remove exact duplicate rows.
+Exact duplicate rows,df.duplicated().sum(),0,May inflate sample size and bias model evaluation.,Remove exact duplicate records.
+Invalid target categories,Check Churn values outside Yes/No,0,Invalid target values prevent supervised classification.,Validate target labels before modelling.
