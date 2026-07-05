@@ -1,0 +1,6 @@
+Feature,PSI,Drift Status,Possible Effect
+tenure,1.4244,High drift,Distribution changes may reduce future model reliability.
+MonthlyCharges,0.6955,High drift,Distribution changes may reduce future model reliability.
+TotalCharges,0.4509,High drift,Distribution changes may reduce future model reliability.
+ServiceCount,0.3321,High drift,Distribution changes may reduce future model reliability.
+ChurnProbability,6.9008,High drift,Distribution changes may reduce future model reliability.

@@ -1,0 +1,3 @@
+What went well,What did not go well,Improvement for next sprint
+The project produced a complete churn-risk pipeline from raw data to dashboard output.,The data cleaning and feature engineering steps required careful validation.,Add stronger automated checks before every dashboard refresh.
+The dashboard output made the model results easier for stakeholders to understand.,The first model output needed clearer customer-level risk explanations.,Improve explanation quality and collect actual user feedback.

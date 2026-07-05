@@ -1,0 +1,46 @@
+name: MRTB2173-51-PMA CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-project:
+    runs-on: ubuntu-latest
+
+    env:
+      MPLBACKEND: Agg
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Sprint 1
+        run: python src/sprint1_data_preparation.py
+
+      - name: Run Sprint 2
+        run: python src/sprint2_baseline_model.py
+
+      - name: Run Sprint 3
+        run: python src/sprint3_improved_model.py
+
+      - name: Run Sprint 4
+        run: python src/sprint4_dashboard_monitoring.py
+
+      - name: Run validation script
+        run: python src/validation_script.py
+
+      - name: Run automated tests
+        run: pytest tests/ -v

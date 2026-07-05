@@ -1,0 +1,4 @@
+Priority,Backlog Item,Expected Benefit
+High,Add automated schema and drift checks before dashboard refresh,Prevents unreliable outputs when future data changes.
+High,Add monitoring alert for sudden increase in high-risk customer share,Helps stakeholders identify possible market or data-quality changes early.
+Medium,Collect retention action feedback after campaigns,Connects model predictions with real business outcomes.

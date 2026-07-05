@@ -1,0 +1,5 @@
+Metric,What is Monitored,Current Result,Interpretation
+Missing value rate,Missing values in dashboard prediction output.,0.0,High missingness may reduce dashboard reliability.
+Duplicate customer ID count,Repeated customer IDs in prediction output.,0.0,Duplicate IDs may distort customer-level decisions.
+Best model F1 score,Balance of precision and recall from model evaluation.,0.6212,Lower future F1 may indicate model degradation.
+High-risk customer share,Percentage of customers classified as high risk.,0.2829760045435184,Large changes may indicate data drift or business changes.
