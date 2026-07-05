@@ -1,0 +1,40 @@
+MRTB2173-51-PMA Final Project Status
+
+Repository: https://github.com/laizizheng-glitch/MRTB2173-51-PMA.git
+Dataset: WA_Fn-UseC_-Telco-Customer-Churn.csv
+Dataset source: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+Completed sprint outputs:
+
+Sprint 1:
+- Dataset preview
+- Dataset info
+- Dataset description
+- Data quality checks
+- Cleaned dataset
+- Data dictionary
+- EDA charts
+- Sprint 1 backlog
+
+Sprint 2:
+- Feature engineering
+- Baseline Logistic Regression model
+- Baseline metrics
+- Baseline prediction output
+
+Sprint 3:
+- Improved Random Forest model
+- Model comparison
+- Dashboard-ready prediction output
+- Risk factors
+- Dashboard charts
+
+Sprint 4:
+- Streamlit dashboard
+- Monitoring metrics
+- Data drift analysis
+- Automated validation script
+- Pytest automated tests
+- GitHub Actions CI/CD workflow
+
+Final project check completed in Google Colab.
